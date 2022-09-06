@@ -1,0 +1,38 @@
+.produtos-container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 3.5rem 0;
+}
+.produtos-titulo{
+    display: block;
+    padding: 3rem 1rem;
+    font-size: 3rem;
+    color: #2c70ff;
+}
+.produtos-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 30px;
+    justify-content: center;
+}
+.produtos{
+    align-self: end;
+}
+.produtos h2{
+    padding: 5rem 1rem;
+    background: #f7f7f7;
+    color: #a4a4a4;
+    font-size: 3rem;
+}
+.produtos img{
+    max-width: 300px;
+}
+.purple{
+    border-top: 8px solid #ae81ff;
+}
+.pink{
+    border-top: 8px solid #f9265e;
+}
+.blue{
+    border-top: 8px solid #66d9eb;
+}

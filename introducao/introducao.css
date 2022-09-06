@@ -1,0 +1,40 @@
+.introducao-titulo{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+    font-size: 3rem;
+    line-height: 1;
+    color: #2c70ff;
+}
+.introducao-titulo span{
+    text-transform: uppercase;
+}
+.introducao-container{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem 1rem;
+    border-top: 3px solid #2c70ff;
+    border-bottom: 3px solid #2c70ff;
+}
+.introducao-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex: 1 1 300px;
+}
+.introducao-info h2{
+    font-size: 3rem;
+    color: #2c70ff;
+}
+.introducao-info p{
+    max-width: 70ch;
+    font-size: 1.25rem;
+    color: #7c7c7c;
+}
+.introducao-img{
+    flex: 1 0 350px;
+    display: flex;
+}

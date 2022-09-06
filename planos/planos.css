@@ -1,0 +1,80 @@
+.planos-container{
+    background: #e9e9e9;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0;
+    justify-content: center;
+    align-items: end;
+    gap: 30px;
+}
+.planos{
+    border: 3px solid #fff;
+    padding: 3rem;
+}
+.planos h2{
+    font-size: 3rem;
+    color: #a4a4a4;
+    text-align: center;
+}
+.planos span{
+    display: block;
+    max-width: 300px;
+    padding: 0.5rem 0;
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #2c70ff;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+sup{
+    font-size: 1.5rem;
+}
+.lista-planos{
+    width: 300px;
+    max-width: 300px;
+    font-size: 1.5rem;
+    color: #7c7c7c;
+    font-style: italic;
+}
+.lista-planos li + li{
+    margin-top: 0.5rem;
+}
+.lista-planos li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lista-planos li::after{
+    content: "";
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    display: flex;
+    background: #2c70ff;
+}
+.planos a{
+    display: block;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin: 30px 0;
+    border: 5px solid #222222;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #222222;
+    transition: 0.3s ease;
+}
+.planos a:hover{
+    background: #2c70ff;
+    color: #fff;
+}
+@media (max-width: 850px){
+    .planos-container div:nth-child(3){
+        order: -2;
+    }
+    .planos-container div:nth-child(2){
+        order: -1;
+    }
+}

@@ -1,0 +1,23 @@
+/*global*/
+@import url(./global/global.css);
+
+/*header*/
+@import url(./header/header.css);
+
+/*introdução*/
+@import url(./introducao/introducao.css);
+
+/*produtos*/
+@import url(./produtos/produtos.css);
+
+/*planos*/
+@import url(./planos/planos.css);
+
+/*qualidades*/
+@import url(./qualidades/qualidades.css);
+
+/*newsletter*/
+@import url(./newsletter/newsletter.css);
+
+/*footer*/
+@import url(./footer/footer.css);
