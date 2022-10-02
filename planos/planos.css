@@ -1,19 +1,30 @@
 .planos-container{
-    background: #e9e9e9;
+    background: #f7f7f7;
     display: flex;
     flex-wrap: wrap;
-    padding: 5rem 0;
+    padding: 3rem 0;
     justify-content: center;
     align-items: end;
     gap: 30px;
+}
+@media (max-width: 490px){
+    .planos-container{
+        padding: 1rem;
+    }
 }
 .planos{
     border: 3px solid #fff;
     padding: 3rem;
 }
+@media (max-width: 490px){
+    .planos{
+        border: 2px solid #fff;
+        padding: 1rem;
+    }
+}
 .planos h2{
     font-size: 3rem;
-    color: #a4a4a4;
+    color: #222;
     text-align: center;
 }
 .planos span{
@@ -59,12 +70,18 @@ sup{
     text-align: center;
     padding: 1.5rem 0;
     margin: 30px 0;
-    border: 5px solid #222222;
+    border: 3px solid #222222;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2rem;
     color: #222222;
     transition: 0.3s ease;
+}
+@media (max-width: 490px){
+    .planos a{
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
 }
 .planos a:hover{
     background: #2c70ff;

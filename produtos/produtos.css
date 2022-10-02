@@ -9,6 +9,11 @@
     font-size: 3rem;
     color: #2c70ff;
 }
+@media (max-width: 490px){
+    .produtos-titulo{
+        font-size: 2rem;
+    }
+}
 .produtos-items{
     display: flex;
     flex-wrap: wrap;
@@ -24,8 +29,15 @@
     color: #a4a4a4;
     font-size: 3rem;
 }
+@media (max-width: 490px){
+    .produtos h2{
+        font-size: 2rem;
+    }
+}
 .produtos img{
     max-width: 300px;
+}
+@media (max-width: 490px){
 }
 .purple{
     border-top: 8px solid #ae81ff;
